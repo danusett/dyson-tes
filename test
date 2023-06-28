@@ -1,0 +1,5 @@
+def get_all_posts():
+"dyson/QueryPrefixStorage",
+prefix=get_script_address() + "/post/v1/"
+# str to help development
+return str(response["result"])
